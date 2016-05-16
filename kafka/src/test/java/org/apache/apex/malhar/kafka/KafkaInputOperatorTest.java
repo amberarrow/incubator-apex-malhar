@@ -55,7 +55,7 @@ import com.datatorrent.stram.StramLocalCluster;
  * A bunch of test to verify the input operator will be automatically partitioned per kafka partition This test is launching its
  * own Kafka cluster.
  */
-//@Ignore
+////@Ignore
 @RunWith(Parameterized.class)
 public class KafkaInputOperatorTest extends KafkaOperatorTestBase
 {
